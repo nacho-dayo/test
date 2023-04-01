@@ -1,0 +1,33 @@
+创建用户名称：
+git config --global user.name "nacho"
+创建用户邮箱：
+git config --global user.email "atri8@outlook.com"
+
+初始化：
+git init
+(  会出现类似以这样一条输出  Initialized empty Git repository in C:/Git/test/.git/  
+并在当前目录下生成一个.git的文件夹，用于保存每个Git版本记录和变化  )
+
+保存文件：
+git add test.txt
+保存当前目录所有文件
+git add .
+
+提交文件：
+git commit
+(  首先需要按下A或I进入编辑模式，在第一行输入说明
+退出时按下ESC键，输入:wq来保存提交
+wq  表示  write  和  quit  )
+提交文件简化版：
+git commit -m "说明"
+
+显示提交信息/日志：
+git log
+(  会显示唯一识别码，提交者信息，提交时间，提交说明  )
+
+重置命令：
+git reset --hard 1ace7e1cea9b9f3067e475abb79fa5d989989b5c
+(  会回退到之前的状态，此语句为硬重置，慎用  )
+
+
+
