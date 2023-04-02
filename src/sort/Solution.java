@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 public class Solution {
 
-	public class bubbleSort {
+	public static class bubbleSort {
 		//冒泡排序
 		  public static int[] sort (int[] array) {
 		      if (array.length == 0)
@@ -22,7 +22,7 @@ public class Solution {
 		  }
 	}
 	
-	public class selectionSort {
+	public static class selectionSort {
 		  //选择排序
 		  public static int[] sort(int[] array) {
 			    if (array.length == 0)
@@ -41,7 +41,7 @@ public class Solution {
 		  } 
 	}
 	
-	public class CountingSort {
+	public static class CountingSort {
 		//计数排序
 		public static int[] sort(int[] array) {
 		    if (array.length == 0) return array;
@@ -70,7 +70,7 @@ public class Solution {
 		    return array;
 		}
 	}
-	public class RadixSort {
+	public static class RadixSort {
 		//基数排序
 	public static int[] sort(int[] array) {
 		    if (array == null || array.length < 2)
