@@ -1,4 +1,4 @@
-小企鹅
+小企鹅爱吃鱼
 创建用户名称：
 git config --global user.name "nacho"
 创建用户邮箱：
