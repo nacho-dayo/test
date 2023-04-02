@@ -116,20 +116,16 @@ public class Solution {
 		arr3 = selectionSort.sort(arr3);
 		arr4 = RadixSort.sort(arr4);
 		for (int i : arr1) {
-			System.out.print(i);
-			System.out.print(' ');
+			System.out.print(i+" ");
 		}System.out.println();
 		for (int i : arr2) {
-			System.out.print(i);
-			System.out.print(' ');
+			System.out.print(i+" ");
 		}System.out.println();
 		for (int i : arr3) {
-			System.out.print(i);
-			System.out.print(' ');
+			System.out.print(i+" ");
 		}System.out.println();
 		for (int i : arr4) {
-			System.out.print(i);
-			System.out.print(' ');
+			System.out.print(i+" ");
 		}System.out.println();
 	}	
 }
